@@ -7,6 +7,11 @@ next
 install required python packages via pip
 ```bash# pip install -r required.txt```
 
+for now we are using these libs in these versions:
+- graphviz==0.20.1
+- pygame==2.5.2
+- PyYAML==6.0.1
+
 - Running:
 # python squarepilot.py NAME-OF-YAML-FILE NAME-OF-OUTPUT
 so for ex.yml yaml file and test.png desired output run in your terminal:
