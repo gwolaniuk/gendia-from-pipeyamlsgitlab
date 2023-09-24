@@ -1,0 +1,16 @@
+digraph {
+	graph [bb="0,0,220.2,36"];
+	node [label="\N"];
+	build	[height=0.5,
+		label=build,
+		pos="29.108,18",
+		width=0.80856];
+	test	[height=0.5,
+		label=test,
+		pos="103.11,18",
+		width=0.75];
+	deploy	[height=0.5,
+		label=deploy,
+		pos="184.11,18",
+		width=1.0026];
+}
