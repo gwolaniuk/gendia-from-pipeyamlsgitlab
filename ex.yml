@@ -1,0 +1,36 @@
+  stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Building..."
+
+test:
+  stage: test
+  script:
+    - echo "Testing..."
+  dependencies:
+    - build
+
+deploy_dev:
+  stage: deploy
+  script:
+    - echo "Deploying to dev..."
+  environment:
+    name: dev
+  dependencies:
+    - test
+
+deploy_prod:
+  stage: deploy
+  script:
+    - echo "Deploying to prod..."
+  environment:
+    name: prod
+  dependencies:
+    - test
+  only:
+    - master
