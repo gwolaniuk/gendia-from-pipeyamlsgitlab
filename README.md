@@ -6,7 +6,7 @@ install python and graphviz (i.e. with winget install python graphviz)
 -- Running:
 # python squarepilot.py NAME-OF-YAML-FILE NAME-OF-OUTPUT
 so for ex.yml yaml file and test.png desired output run in your terminal:
-# python squarepilot.py ex.yml test.png
+[code]# python squarepilot.py ex.yml test.png[/code]
 
 ...and the result should be generated dot file and desired diagram in above mentioned fimlename (test.png)
 
